@@ -26,7 +26,7 @@ jobs:
             set -euo pipefail
 
             # === Settings (edit to match your server paths) ===
-            APP_DIR="/var/www/moneymind-2"           # where your repo lives on the server
+            APP_DIR="/var/www/moneymind-2/frontend/web"           # where your repo lives on the server
             PM2_APP_NAME="MoneyMind"               # from ecosystem.config.cjs
             BRANCH="master"                          # which branch to deploy
 
