@@ -2,7 +2,7 @@ name: Deploy (Nuxt 4 + Bun + PM2)
 
 on:
   push:
-    branches: ['main'] # change if you deploy from another branch
+    branches: ['master'] # change if you deploy from another branch
   workflow_dispatch: {}
 
 concurrency:
